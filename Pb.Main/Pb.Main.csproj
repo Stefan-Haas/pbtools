@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pb.DataLogger\Pb.DataLogger.csproj" />
+    <ProjectReference Include="..\Pb.DataReader\Pb.DataReader.csproj" />
+    <ProjectReference Include="..\Pb.Knapsack\Pb.Knapsack.csproj" />
+  </ItemGroup>
+
+</Project>
